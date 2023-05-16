@@ -1,0 +1,76 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Estilo/style.css">
+    <title>Atividade de JS</title>
+</head>
+<body>
+<div id="estilo">
+    <form action="">
+            <h1>Onde voce mora?</h1>
+            Qual seu pais:
+            <input type="text" name="ipais" id="ipais">
+            <input type="button" value="enviar" onclick="local()">
+            <div id="res">
+            </div>
+        </form>
+</div>
+<script>
+        function local(){
+           var re = document.querySelector('input#ipais')
+           var res = document.querySelector('div#res')
+            var val = (re.value)
+            
+            
+            if(val == 'Brasil'){
+                res.innerHTML= `Voce é do <strong>${val}</strong> seja bem vindo`
+            }else{
+                res.innerHTML=('Voce e estrangeiro,Bem vindo ao Brasil')
+            }
+            
+        }
+    </script>
+</body>
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Estilo/style.css">
+    <title>Atividade de JS</title>
+</head>
+<body>
+<div id="estilo">
+    <form action="">
+            <h1>Onde voce mora?</h1>
+            Qual seu pais:
+            <input type="text" name="ipais" id="ipais">
+            <input type="button" value="enviar" onclick="local()">
+            <div id="res">
+            </div>
+        </form>
+</div>
+<script>
+        function local(){
+           var re = document.querySelector('input#ipais')
+           var res = document.querySelector('div#res')
+            var val = (re.value)
+            
+            
+            if(val == 'Brasil'){
+                res.innerHTML= `Voce é do <strong>${val}</strong> seja bem vindo`
+            }else{
+                res.innerHTML=('Voce e estrangeiro,Bem vindo ao Brasil')
+            }
+            
+        }
+    </script>
+</body>
+
+</html>
